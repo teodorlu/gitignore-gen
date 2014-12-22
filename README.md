@@ -1,7 +1,7 @@
 gitignore-gen
 =============
 
-Gitignore generator written in Haskell. Prints the resulting gitignores to standard output. Uses [Github's gitignore repo](https://github.com/github/gitignore). No special handling of weird characters, check results.
+Gitignore generator written in Haskell. Prints the resulting gitignores to standard output. Uses [Github's gitignore repo](https://github.com/github/gitignore). No error handling whatsoever, check that the resulting files are the ones you need.
 
 Example usage:
 
