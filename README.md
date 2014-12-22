@@ -11,3 +11,8 @@ runhaskell gitignore-gen.hs Haskell > .gitignore
 ```
 
 Where Language1, Language2 correspond to the names of the gitignore files in [Github's repo](https://github.com/github/gitignore).
+
+Dependencies:
+
+- ``Libcurl``. Debian: ``sudo apt-get install libghc-curl-dev``.
+- ``download-curl``. Using cabal-install ``cabal install download-curl``.
